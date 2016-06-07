@@ -4,11 +4,8 @@ import socket
 import sys
 import os, time
 
-
 os.environ['TZ'] = 'America/Lima'
 time.tzset()
-
-
 
 TCP_IP = '172.31.47.57'
 TCP_PORT = 50000
