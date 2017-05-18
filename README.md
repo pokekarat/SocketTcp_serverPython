@@ -4,7 +4,7 @@ Create a tcp socket for receiving incoming data from a sim900 module, using pyth
 Set UP service with Upstart
 
 - move socketTCPpython.conf to /etc/init/
-- move bin/socketcp_gsm_py.py to /bin/
+- move socketcp_gsm_py.py to /bin/
 
 start service
 - sudo start socketTCPpython
