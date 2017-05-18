@@ -1,3 +1,9 @@
 #!/bin/bash
-mkdir pyserverSocket
-mv socketcp_gsm_py.py ./pyserverSocket
+
+sudo mv ./SocketTcp_serverPython/socketTCPpython.conf  /etc/init/
+sudo mv ./SocketTcp_serverPython/socketcp_gsm_py.py   /bin/
+
+sudo start socketTCPpython
+sudo status socketTCPpython
+
+
